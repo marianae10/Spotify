@@ -1,26 +1,26 @@
 @font-face {
 	font-family: 'CircularStd-Book';
-	src: url('fonts/CircularStd-Book.otf') format('opentype');
+	src: url('CircularStd-Book.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'CircularStd-Light';
-	src: url('fonts/CircularStd-Light.otf') format('opentype');
+	src: url('CircularStd-Light.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'GothamBold';
-	src: url('fonts/GothamBold.ttf') format('truetype');
+	src: url('GothamBold.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Gotham-Light';
-	src: url('fonts/Gotham-Light.otf') format('opentype');
+	src: url('Gotham-Light.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'GothamBook';
-	src: url('fonts/GothamBook.ttf') format('truetype');
+	src: url('GothamBook.ttf') format('truetype');
 }
 
 body{
