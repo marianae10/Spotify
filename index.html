@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign up - Spotify</title>
+	<link rel="icon" type="image" href="image/logo.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+
+
+<body>
+
+<div class="container">
+	<form id="form">
+		<div class="upper_content">
+		<!-------------------------------------------Spotify------------------------------------->	
+			<div class="spotify_img_container">
+				<img class="spotify" src="image/spotify.png" alt="spotify logo">
+			</div>
+				<p class="header">Sign up for free to start listening.</p>
+		</div>
+		<!-------------------------------------------Fb and Google------------------------------>
+		<div class="fb">
+			<button><img src="image/fb.png" id="fb" alt="fb"><p class="fb-text">Sign up with Facebook</p></button>
+		</div>
+
+		<div class="google">
+			<button><img src="image/google.png" id="google"><p class="google-text">Sign up with Google</p></button>
+		</div>
+
+		<div class="divider">
+			<span>or</span>
+		</div>
+
+		<!------------------------------------------------REGISTRATION---------------------------------------->
+		<div class="starting_text">
+			<p>Sign up with your email address</p>
+		</div>
+
+			<div class="input_control">			
+				<label for="email-input"> What's your email?</label>
+				<input type="email" id="email-input" name="email" placeholder="Enter your email.">
+				<span id="emailError"></span>
+				
+			</div>
+
+			<div class="input_control">			
+				<label for="email-input2"> Confirm your email?</label>
+				<input type="email" id="email-input2" name="email2" placeholder="Enter your email again.">
+				<span id="emailError2"></span>
+			</div>
+
+			<div class="input_control">			
+				<label for="password-input"> Create a Password</label>
+				<input type="password" id="password-input" name="password" placeholder="Create a password.">
+				<span id="passwordError"></span>
+			</div>
+
+			<div class="input_control">			
+				<label for="name-input">What should we call you?</label>
+				<input type="text" id="name-input" name="name" placeholder="Enter a profile name." >
+				<span id="nameError"></span>
+				<p>This appears on your profile.</p>
+			</div>
+
+<!-------------------------------------------------Birthdate---------------------------------------->
+			<div class="birth">
+				<label for="birthdate">What's your date of birth?</label>
+
+			<div class="birthdate">
+				<div class="month">
+						<div class="birthdate_label"><label for="birthdate">Month</label></div>
+							<select id="month" name="month">
+							  <option value="">Month</option>
+							  <option value="01">January</option>
+							  <option value="02">February</option>
+							  <option value="03">March</option>
+							  <option value="04">April</option>
+							  <option value="05">May</option>
+							  <option value="06">June</option>
+							  <option value="07">July</option>
+							  <option value="08">August</option>
+							  <option value="09">September</option>
+							  <option value="10">October</option>
+							  <option value="11">November</option>
+							  <option value="12">December</option>
+							</select>
+
+				</div>
+				<div class="day">
+						<div class="birthdate_label_day"><label for="day"> Day </label></div>
+						<input type="text" class ="day" id="day" name="day" placeholder="DD">
+				</div>
+
+				<div class="year">
+						<div class="birthdate_label_year"><label for="year"> Year </label></div>
+						<input type="text" maxlength="4" class="year" id="year" name="year" placeholder="YYYY">
+				</div>
+
+			</div>
+	
+				<span id="monthError"></span><br>
+				<span id="dayError"></span><br>
+				<span id="yearError"></span>
+		
+			<!---------------------------------gender-------------------------------->
+
+		<div class="gender">
+			<label> What's your gender?</label>
+		</div>
+
+		<div class="radio_group">
+			<label>
+				 <input type="radio" name="gender" value="male" onclick="hideGenderError()">
+				  Male
+			</label>
+			<label>
+				  <input type="radio" name="gender" value="female" onclick="hideGenderError()">
+				  Female
+			</label>
+			<label>
+				 <input type="radio" name="gender" value="non-binary" onclick="hideGenderError()">
+				  Non-binary
+			</label>
+			<label>
+				 <input type="radio" name="gender" value="other" onclick="hideGenderError()">
+				  Other
+			</label>
+			<label>
+				 <input type="radio" name="gender" value="Prefer not to say" onclick="hideGenderError()">
+				  Prefer not to say
+			</label>
+			<span id="genderError"></span>
+		</div>
+
+<!------------------------------Checkbox--------------------------------------------->
+		<div class="checkBox">
+			<label for="myCheckbox"><input type="checkbox" id="myCheckbox" name="myCheckbox" value="yes">Share my registration data with Spotify's content providers for &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; marketing purposes.</label>
+		</div>
+		
+		<div class="terms">
+			<small>By clicking on sign-up, you agree to Spotify's <a href="/">Terms and Conditions of Use.</a></small>
+		</div>
+
+		<div class="privacy">
+			<small>To learn more about how Spotify collects, uses, shares and protects your personal data, please see <a href="/">Spotify's Privacy Policy.</a></small>
+		</div>
+
+		<div class="button">
+			<input type="submit" value="Sign up">
+		</div>
+
+		<div class="login">
+			<Strong>Have an account?<a href="/">Log in</a></Strong>
+		</div>
+	</div>
+	</form>
+</div>
+ <script src="index.js"></script>
+</body>
+</html>

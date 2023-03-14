@@ -1,0 +1,304 @@
+@font-face {
+	font-family: 'CircularStd-Book';
+	src: url('fonts/CircularStd-Book.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'CircularStd-Light';
+	src: url('fonts/CircularStd-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'GothamBold';
+	src: url('fonts/GothamBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Gotham-Light';
+	src: url('fonts/Gotham-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'GothamBook';
+	src: url('fonts/GothamBook.ttf') format('truetype');
+}
+
+body{
+	font-family: CircularStd-Light;
+
+}
+.container{
+	width: 450px;
+	margin: 0 auto 0 auto;
+}
+.upper_content{
+	padding: 40px 0 32px;
+}
+.spotify{
+	width: 130px;
+	height: 40px;
+
+}
+.spotify_img_container{
+	width: 450px;
+	height: 45.6px;
+	text-align: center;
+}
+.header{
+	font-family: GothamBold;
+	font-size: 30px;
+	letter-spacing: -3px;
+	text-align: center;
+	margin: 40px 0px 0px;
+}
+#fb{
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	padding: 4px 4px 0 0;
+}
+.fb{
+	width: 450px;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	margin: 0 0 22px;
+}
+.fb button{
+	background-color: #405A93;
+	border-radius: 30px;
+	width: 394px;
+	height: 48px;
+	padding: 6px 24px;
+	color: white;
+	border-style: none;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+}
+.fb-text{
+	font-weight: bold;
+	margin: 8px;
+}
+#google{
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	padding: 4px 4px 0 0;
+}
+.google{
+	width: 450px;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	margin: 0 0 32px;
+}
+.google button{
+	background-color: white;
+	border-radius: 30px;
+	width: 394px;
+	height: 48px;
+	padding: 6px 24px;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+}
+.google-text{
+	color: #686767;
+	margin: 8px;
+	font-weight: bold;
+}
+.divider{
+	border-bottom: 0.5px solid lightgray;
+	line-height: 0.1em;
+	width: 382.5px;
+	margin: 10px 33.75px 26px;
+	text-align: center;
+}
+.divider span{
+	background-color: white;	
+	padding: 0 10px;
+	color: gray;
+	font-weight: bold;
+}
+.starting_text{
+	font-family: GothamBold;
+	font-size: 17px;
+	text-align: center;
+}
+
+.input_control{
+	display: flex;
+	flex-direction: column;
+}
+.input_control input:focus{
+	outline: 3px solid black;
+}
+
+.input_control label{
+	font-family: GothamBold;
+	width: 450px;
+	height: 27.2px;
+	font-size: 13px;
+	margin-top: 20px;
+}
+.input_control #email-input, #email-input2, #password-input, #name-input {
+	color: #443030;
+	font-weight: bold;
+	font-family: GothamBook;
+	font-size: 14px;
+	height: 28px;
+	padding: 8px 14px;
+	border-radius: 4px;
+	border-width: 1px;
+}
+
+.input_control p{
+	font-family: CircularStd-Light;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+}
+.birth label{
+	font-family: GothamBold;
+	width: 450px;
+	height: 27.2px;
+	font-size: 13px;
+}
+.birthdate{
+	display: flex;
+	flex-direction: row;
+	margin: 15px 0 0 0;
+	}
+.birthdate_label{
+	margin-bottom: 10px;
+}
+
+.birthdate select:focus{
+	outline: 3px solid black;
+}
+.birthdate input:focus{
+	outline: 3px solid black;
+}
+
+
+select{
+	padding: 8px 44px 8px 14px;
+	font-size: 16px;
+	width: 202.5px;
+	height: 48px;
+	border-radius: 4px;
+
+}
+.birthdate_label_day{
+	margin-bottom: 10px;
+	margin-left: 14px;
+}
+.day{
+	width: 80px;
+	height: 43px;
+	margin-left: 14px;
+	border-radius: 4px;
+	border-width: 1px;
+
+}
+.birthdate_label_year{
+	margin-bottom: 10px;
+	margin-left: 23px;
+
+}
+.year{
+	width: 101.5px;
+	height: 43px;
+	margin-left: 23px;
+	border-radius: 4px;
+	border-width: 1px;
+}
+.gender{
+	margin-top: 20px;
+	padding: 0 0 8px;
+}
+.radio_group label{
+	font-family: CircularStd-Light;
+	padding: 5px 35px 5px 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.radio_group input{
+	width: 16px;
+	height: 16px;
+}
+.checkBox{
+	margin-top: 20px;
+	font-family: CircularStd-Light;
+}
+.checkBox input{
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+}
+.terms{
+	margin-top: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+.terms a{
+	color: rgb(29, 185, 84);
+}
+.privacy{
+	margin-top: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+.privacy a{
+	color: rgb(29, 185, 84);
+}
+.button{
+	text-align: center;
+	margin-top: 15px;
+
+}
+.button input{
+	font-size: 18px;
+	font-weight: bold;
+	width: 158.9px;
+	height: 56px;
+	background-color: #1ed760;
+	border-style: none;
+	border-radius: 500px;
+}
+.login{
+	text-align: center;
+	margin-top: 20px;
+	padding: 0 0 130px;
+}
+.login a{
+	color: rgb(29, 185, 84);
+}
+.fb button:hover{	 
+	 transform: scale(105%); 
+}
+.google button:hover{	 
+	 transform: scale(105%); 
+}
+.button input:hover {
+	  transform: scale(105%); 
+	  filter: brightness(1.1);
+}
+#emailError, #emailError2, #passwordError, #nameError{
+	padding: 5px;
+	display: none;
+	font-size: 14px;
+	color: red;
+	font-weight: bold;
+	font-family: CircularStd-Light;
+}
+#monthError, #dayError, #yearError, #genderError{
+	display: none;
+	font-size: 14px;
+	color: red;
+	font-weight: bold;
+	font-family: CircularStd-Light;
+	margin-bottom: 0;
+}
